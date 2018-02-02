@@ -11,5 +11,4 @@
 <!-- Complements -->
  <project path="external/stlport" name="android_external_stlport" remote="github" revision="cm-14.1"/>
  <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="github" revision="cm-14.1"/>
- <project path="device/qcom/common" name="android_device_qcom_common" remote="github" revision="cm-14.1"/>
 </manifest>
