@@ -9,6 +9,6 @@
  <project path="kernel/motorola/ghost" name="fluent-devices/android_kernel_motorola_ghost" remote="github" revision="fluent-1.0"/>
  
 <!-- Complements -->
- <project path="external/stlport" name="android_external_stlport" remote="github" revision="cm-14.1"/>
- <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="github" revision="cm-14.1"/>
+ <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1"/>
+ <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="cm-14.1"/>
 </manifest>
