@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
+<!-- Local Manifest for DEVICES Template 
+      use this only on FluentOS Repo Tree -->
+  
 <!-- Device Tree -->
- <project path="device/motorola/ghost" name="fluent-devices/android_device_motorola_ghost" remote="github" revision="fluent-1.0"/>
- <project path="device/motorola/msm8960dt-common" name="fluent-devices/android_device_motorola_msm8960dt-common" remote="github" revision="fluent-1.0"/>
+ <project path="device/[brand]/[codename]" name="fluent-devices/android_device_[brand]_[codename]" remote="github" revision="fluent-1.0"/>
+<!-- if this device have Common Device Tree -->
+ <project path="device/[brand]/[common_device-tree]" name="fluent-devices/android_device_[brand]_[common_device-tree]" remote="github" revision="fluent-1.0"/>
  
 <!-- Kernel tree -->
- <project path="kernel/motorola/ghost" name="fluent-devices/android_kernel_motorola_ghost" remote="github" revision="fluent-1.0"/>
+ <project path="kernel/[brand]/[codename or soc kernel tree]" name="fluent-devices/android_kernel_[brand]_[codename or soc kernel tree]" remote="github" revision="fluent-1.0"/>
  
 <!-- Complements -->
- <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="cm-14.1"/>
+ <!-- Place your 3th party complements here -->
 </manifest>
