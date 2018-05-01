@@ -7,6 +7,9 @@
  
 <!-- Kernel tree -->
  <project path="kernel/motorola/ghost" name="fluent-devices/android_kernel_motorola_ghost" remote="github" revision="fluent-1.0"/>
+  
+<!-- Vendor Tree -->
+ <project path="vendor/motorola" name="XPerience-AOSP-Lollipop/proprietary_vendor_motorola" remote="github" revision="xpe-11.1" />
  
 <!-- Complements -->
  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="cm-14.1"/>
