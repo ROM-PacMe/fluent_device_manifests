@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-<!-- Local Manifest for DEVICES Template 
-      use this only on FluentOS Repo Tree -->
-  
-<!-- Device Tree -->
- <project path="device/[brand]/[codename]" name="fluent-devices/android_device_[brand]_[codename]" remote="github" revision="fluent-1.0"/>
-<!-- if this device have Common Device Tree -->
- <project path="device/[brand]/[common_device-tree]" name="fluent-devices/android_device_[brand]_[common_device-tree]" remote="github" revision="fluent-1.0"/>
- 
-<!-- Kernel tree -->
- <project path="kernel/[brand]/[codename or soc kernel tree]" name="fluent-devices/android_kernel_[brand]_[codename or soc kernel tree]" remote="github" revision="fluent-1.0"/>
- 
-<!-- Complements -->
- <!-- Place your 3th party complements here -->
+<!-- Samsung Galaxy J7 2016 -->
+
+  <!-- Device trees -->
+  <project name="Fluent-Devices/android_device_samsung_j7xelte" path="device/samsung/j7xelte" remote="github" revision="fluent-1.0" />
+  <project name="exynos7870/android_device_samsung_exynos7870-common" path="device/samsung/exynos7870-common" remote="github" revision="cm-14.1" />
+
+  <!-- Vendor tree -->
+  <project name="exynos7870/android_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-15.1" />
+
+  <!-- Kernel source -->
+  <project name="exynos7870/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="github" revision="lineage-15.1" />
+
+  <!-- Common Samsung repo -->
+  <project name="exynos7870/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1" />
+
+  <!-- Older Hardware repos -->
+  <project name="exynos7870/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="github" revision="lineage-15.1" />
+  <project name="exynos7870/android_hardware_samsung_slsi-cm_exynos7870" path="hardware/samsung_slsi-cm/exynos7870" remote="github" revision="lineage-15.1" />
+  <project name="exynos7870/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="github" revision="lineage-15.1" />
+  <project name="exynos7870/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" revision="lineage-15.1" />
+
+  <!-- For Advanced display and doze -->
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
+
 </manifest>
